@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Anushka Madiwale</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/png" href="{{ url_for('static', filename='assets/favicon.png') }}" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet" />
+        <style>
+            .cursor {
+                display: inline-block;
+                vertical-align: text-bottom;
+                animation: blink-caret 0.75s step-end infinite;
+                font-size: inherit;
+                transform: scale(1.5);
+            }
+
+            @keyframes blink-caret {
+                0% {
+                    border-color: transparent;
+                }
+                50% {
+                    border-color: orange;
+                }
+                100% {
+                    border-color: transparent;
+                }
+            }
+            .text-primary {
+                color: #17667f;
+            }
+
+            .text-bold {
+                font-weight: bold;
+            }
+
+            .text-italic {
+                font-style: italic;
+            }
+
+            .text-underline {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand"><a href="#page-top">Anushka Madiwale</a></li>
+                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
+                <li class="sidebar-nav-item"><a href="#about">About</a></li>
+                <li class="sidebar-nav-item"><a href="#services">Work</a></li>
+                <li class="sidebar-nav-item"><a href="#portfolio">Projects</a></li>
+                <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Header-->
+        <header class="masthead d-flex align-items-center">
+            <div class="container px-4 px-lg-5 text-center">
+                <h1 class="mb-1">Anushka Madiwale</h1>
+                <div class="d-flex justify-content-center">
+                    <h2 class="mb-5 mr-3">I'm&nbsp;</h2>
+                    <h2 class="mb-5 typed"></h2>
+                </div>
+                <a class="btn btn-primary btn-xl mt-3" href="#about">Find Out More</a>
+            </div>
+        </header>
+
+        <!-- About-->
+        <section class="content-section bg-light" id="about">
+            <div class="container px-4 px-lg-5 text-center">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-10">
+                        <h2>YAYY, You scrolled through! <i class="fas fa-champagne-glasses"></i></h2>
+                        <p class="lead mb-5">
+                            Hello there!
+                            I'm <span class="text-bold">Anushka Madiwale</span>, a junior  at <span class="text-primary">Arizona State University</span> studying <span class="text-bold">Computer Science<i class="fas fa-laptop-code"></i></span> with a minor in <span class="text-bold">Business<i class="fas fa-user-tie"></i></span>. 
+                            Currently pursuing my degree, I'm enthusiastic about <span class="text-italic">full stack development</span> and <span class="text-italic">data analysis</span>. 
+                            My goal is to leverage my technical skills and analytical mindset to create captivating and seamless experiences for users through my work. 
+                            The field of <span class="text-bold">machine learning</span> and <span class="text-bold">artificial intelligence</span> has caught my interest, and I'm excited to explore its potential in enhancing the way we interact with technology.
+                        </p>
+
+                        <p class="lead mb-5">
+                            When I'm not coding, I find joy in activities like <span class="text-italic">dancing</span> and <span class="text-italic">writing poems</span>. 
+                            And, like any true <i class="fas fa-paw"></i> lover, spending time with furry friends brings me immense happiness.
+                        </p>
+
+                        <a class="btn btn-dark btn-xl" href="#services">What Have I Done?</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Services-->
+        <section class="content-section bg-primary text-white text-center" id="services">
+          <div class="container px-4 px-lg-5">
+            <div class="content-section-heading">
+              <h3 class="text-secondary mb-0">Work</h3>
+              <h2 class="mb-5">Work Experience!</h2>
+            </div>
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+              <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                <div class="service-icon rounded-circle mx-auto mb-3">
+                  <i class="fas fa-magnifying-glass-chart"style="color: #2D4356;"></i>
+                </div>
+                <h4><strong>Machine Learning/ Artificial Intelligence Intern</strong></h4>
+                <p class="text-faded mb-0">Cornell Tech, Cornell University</p>
+                <br>
+                <p class="text-faded mb-0">Implemented deep learning models for NLP sentiment analysis using packages like scikit-learn and TensorFlow, achieving high-performance results by fine-tuning hyperparameters</p>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                <div class="service-icon rounded-circle mx-auto mb-3">
+                  <i class="fas fa-person-chalkboard" style="color: #2D4356;"></i>
+                </div>
+                <h4><strong>Undergraduate Teaching Assistant (UGTA)</strong></h4>
+                <br>
+                <p class="text-faded mb-0">Arizona State University</p>
+                <br>
+                <p class="text-faded mb-0">Empowered over 70+ students in Java and programming fundamentals through leading a weekly CSE 110 class, offering personalized support to a class of over 1900+ students, and conducting one-to-one doubt sessions, resulting in clearing doubts of 100+ students.</p>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+                <div class="service-icon rounded-circle mx-auto mb-3">
+                  <i class="icon-pencil" style="color: #2D4356;"></i>
+                </div>
+                <h4><strong>Subject Area Tutor</strong></h4>
+                <br>
+                <br>
+                <p class="text-faded mb-0">Arizona State University
+                </p>
+                <br>
+                <p class="text-faded mb-0">Offered effective small group tutoring sessions to over 800 students in Java, C++, Calculas, Algebra, Discrete Mathematics, Chemistry and programming fundamentals that increased the incoming rate of students by 20%.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Callout-->
+        <section class="callout">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mx-auto mb-5">This is where you view my <em>whole</em> life!</h2>
+                <a class="btn btn-primary btn-xl" href="https://drive.google.com/file/d/1IRp_0Cor9iWSFPeXo7-6-0EXg7a-YjV0/view?usp=share_link" target="_blank">View it Now!</a>
+            </div>
+        </section>
+        <!-- Portfolio-->
+        <section class="content-section" id="portfolio">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading text-center">
+                    <h3 class="text-secondary mb-0">Portfolio</h3>
+                    <h2 class="mb-5">Recent Projects</h2>
+                </div>
+                <div class="row gx-0">
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="https://github.com/anushkamadiwale04/Sudoku-Solver-using-Backtracking" target="_blank">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Sudoku Solver</div>
+                                    <p class="mb-0">Implemented a Sudoku solver using a backtracking algorithm that improved the speed by a few milliseconds.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="{{ url_for('static', filename='assets/img/portfolio-1.jpg') }}" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="https://github.com/anushkamadiwale04/Webgames-in-p5.js" target="_blank">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Improving Fine Motor Skills game</div>
+                                    <p class="mb-0">Executed games like visual recognition of hands to help kill creatures displayed on screen with opening and final page using the p5.js editor to help develop fine motor skills like hand eye co-ordination of stroke patients.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="{{ url_for('static', filename='assets/img/portfolio-2.jpg') }}" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="https://github.com/anushkamadiwale04/Space-Invasion-Game-in-Pygame" target="_blank">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Space Invasion Game</div>
+                                    <p class="mb-0">Implemented a space invsasion game with sound and visual effects using the pygame python library that can also be manipulated to change the speed of the game.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="{{ url_for('static', filename='assets/img/portfolio-3.jpg') }}" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Shortest Distance between two-cities</div>
+                                    <p class="mb-0">Implemented Dijkstra's Algorithm with a minimum priority queue to find the shortest distance of travel between two cities by considering different conditions.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="{{ url_for('static', filename='assets/img/portfolio-4.jpg') }}" alt="..." />
+                        </a>
+                    </div>
+                <!-- <div class="col-lg-6">
+                        <a class="portfolio-item" href="#!">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Workspace</div>
+                                    <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="{{ url_for('static', filename='assets/img/portfolio-5.jpg') }}" alt="..." />
+                        </a>
+                    </div>
+                <div class="col-lg-6">
+                        <a class="portfolio-item" href="https://github.com/anushkamadiwale04/Djikshtra-Algorithm-Implementation" target="_blank">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2"></div>
+                                    <p class="mb-0">Implemented Dijkstra's Algorithm with a minimum priority queue to find the shortest distance of travel between two cities by considering different conditions.</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="{{ url_for('static', filename='assets/img/portfolio-6.jpg') }}" alt="..." />
+                        </a>
+                    </div>
+                </div>-->
+            </div>
+        </section>
+        <!-- Call to Action-->
+        <section class="content-section bg-primary text-white">
+            <div class="container px-4 px-lg-5 text-center">
+                <h2 class="mb-4">Certifications</h2>
+                <a class="btn btn-xl btn-light me-4" href="https://www.udemy.com/s/?hash=UC-319fb148-79c2-4e84-ab65-18aa1771daa6" target="_blank">Python 16 Days Challenge - Udemy</a>
+                <!-- <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a> -->
+            </div>
+        </section>
+        <!-- Map-->
+        <div class="map" id="contact">
+            <a href="https://www.google.com/maps/dir/?api=1&destination=Vertex+Apartments" target="_blank">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.058250662112!2d-111.9261794!3d33.4175137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b08e8c9bc3d8b%3A0x54e79ec10e0701cd!2sVertex%20Apartments!5e0!3m2!1sen!2sus!4v1625670686506!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </a>
+            <br />
+            <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Vertex+Apartments&amp;aq=0&amp;oq=Vertex+Apartments&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Vertex+Apartments&amp;t=m&amp;z=15&amp;iwloc=A">Click here for directions</a></small>
+        </div>
+
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container px-4 px-lg-5">
+                <ul class="list-inline mb-5">
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="https://www.instagram.com/awwnushkaa_/" target="_blank"><i class="icon-social-instagram"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="mailto:apmadiwa@asu.edu"><i class="far fa-envelope-open"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white" href="https://github.com/anushkamadiwale04" target="_blank"><i class="icon-social-github"></i></a>
+                    </li>
+                </ul>
+                <p class="text-muted small mb-0">Copyright &copy; Anushka Madiwale 2023</p>
+            </div>
+        </footer>
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+        <script>
+            var typed = new Typed('.typed', {
+                strings: ['a Software Engineer', 'a Data Analyst', 'an AI/ ML Engineer'],
+                typeSpeed: 110, // Typing speed in milliseconds
+                backSpeed: 40, // Backspacing speed in milliseconds
+                loop: true, // Enable loop
+                loopCount: Infinity // Set loop count to infinite
+            });
+        </script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+    </body>
+</html>
